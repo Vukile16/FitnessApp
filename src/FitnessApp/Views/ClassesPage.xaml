@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:helpers="clr-namespace:FitnessApp.Helpers"
+             x:Class="FitnessApp.Views.ClassesPage"
+             BackgroundColor="{StaticResource Background}"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True">
+    
+   
+            <xct:TabView 
+                TabStripPlacement ="Top"
+                IsSwipeEnabled="False"
+                TabStripBackgroundColor="{StaticResource CardBackground}"
+                TabStripHeight="80">
+                    
+                <xct:TabViewItem
+                    Text="Classes"
+                    Style="{StaticResource TabViewItemStyle}"
+                    ControlTemplate="{StaticResource TabItemTemplate}">
+                    <xct:TabViewItem.Icon>
+                        <FontImageSource 
+                            FontFamily="FARegular"
+                            Size="36"
+                            Color="{StaticResource TextSecondary}"
+                            Glyph="{x:Static helpers:FAIcons.PlayCircle}"/>
+                    </xct:TabViewItem.Icon> 
+                    <xct:TabViewItem.IconSelected>
+                        <FontImageSource 
+                            FontFamily="FARegular"
+                            Size="36"
+                            Color="{StaticResource Accent}"
+                            Glyph="{x:Static helpers:FAIcons.PlayCircle}"/>
+                    </xct:TabViewItem.IconSelected> 
+                     <CollectionView 
+                         ItemsLayout="VerticalList"
+                         VerticalOptions="Start"
+                         Margin="0,35,0,0">
+                        <CollectionView.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Strength</x:String>
+                                <x:String>Yoga</x:String>
+                                <x:String>Cardio</x:String>
+                                <x:String>Meditation</x:String>
+                                <x:String>Outdoor</x:String>
+                                <x:String>Cycling</x:String>
+                                <x:String>Stretching</x:String>
+                                <x:String>Tread Bootcamp</x:String>
+                                <x:String>Bike Bootcamp</x:String>
+                                <x:String>Walking</x:String>
+                            </x:Array>
+                        </CollectionView.ItemsSource>
+                            <CollectionView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Padding="12,6"
+                                          HeightRequest="160">
+                                        <Frame BackgroundColor="Black"
+                                               Padding="0"
+                                               HasShadow="False"
+                                               IsClippedToBounds="True"
+                                               CornerRadius="12">
+                                            <Grid ColumnDefinitions=".55*,.45*">
+                                                <Label Text="{Binding .}"
+                                                       TextColor="White"
+                                                       FontSize="{OnPlatform Android=20, iOS=18}"
+                                                       VerticalOptions="Center"
+                                                       LineBreakMode="WordWrap"
+                                                       Margin="36,0"/>
+                                                <Image 
+                                                    Grid.Column="1"
+                                                    Aspect="AspectFill"
+                                                    Source="strength.png"/>
+                                            </Grid>
+                                        
+                                        </Frame>
+                                    </Grid>
+                                </DataTemplate>
+                            </CollectionView.ItemTemplate>
+                        </CollectionView>                         
+                </xct:TabViewItem>   
+                
+                <xct:TabViewItem
+                    Text="Programs"
+                    Style="{StaticResource TabViewItemStyle}"
+                    ControlTemplate="{StaticResource TabItemTemplate}">
+                     <xct:TabViewItem.Icon>
+                        <FontImageSource 
+                            FontFamily="FARegular"
+                            Size="36"
+                            Color="{StaticResource TextSecondary}"
+                            Glyph="{x:Static helpers:FAIcons.ListAlt}"/>
+                    </xct:TabViewItem.Icon> 
+                    <xct:TabViewItem.IconSelected>
+                        <FontImageSource 
+                            FontFamily="FARegular"
+                            Size="36"
+                            Color="{StaticResource Accent}"
+                            Glyph="{x:Static helpers:FAIcons.ListAlt}"/>
+                    </xct:TabViewItem.IconSelected> 
+                  <CollectionView>
+                    <CollectionView.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Item One</x:String>
+                            <x:String>Item Two</x:String>
+                            <x:String>Item Three</x:String>
+                            <x:String>Item Three</x:String>
+                            <x:String>Item Three</x:String>
+                        </x:Array>
+                    </CollectionView.ItemsSource>
+                </CollectionView>              
+                </xct:TabViewItem>  
+                
+                <xct:TabViewItem
+                    Text="Collections"
+                    Style="{StaticResource TabViewItemStyle}"
+                    ControlTemplate="{StaticResource TabItemTemplate}">
+                     <xct:TabViewItem.Icon>
+                        <FontImageSource 
+                            FontFamily="FARegular"
+                            Size="36"
+                            Color="{StaticResource TextSecondary}"
+                            Glyph="{x:Static helpers:FAIcons.WindowRestore}"/>
+                    </xct:TabViewItem.Icon> 
+                    <xct:TabViewItem.IconSelected>
+                        <FontImageSource 
+                            FontFamily="FARegular"
+                            Size="36"
+                            Color="{StaticResource Accent}"
+                            Glyph="{x:Static helpers:FAIcons.WindowRestore}"/>
+                    </xct:TabViewItem.IconSelected> 
+                    <Grid>
+                        <Label
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            Text="TabContent1" />
+                    </Grid>                        
+                </xct:TabViewItem>  
+                
+                <xct:TabViewItem
+                    Text="Schedule"
+                    Style="{StaticResource TabViewItemStyle}"
+                    ControlTemplate="{StaticResource TabItemTemplate}">
+                     <xct:TabViewItem.Icon>
+                        <FontImageSource 
+                            FontFamily="FARegular"
+                            Size="36"
+                            Color="{StaticResource TextSecondary}"
+                            Glyph="{x:Static helpers:FAIcons.Calendar}"/>
+                    </xct:TabViewItem.Icon> 
+                    <xct:TabViewItem.IconSelected>
+                        <FontImageSource 
+                            FontFamily="FARegular"
+                            Size="36"
+                            Color="{StaticResource Accent}"
+                            Glyph="{x:Static helpers:FAIcons.Calendar}"/>
+                    </xct:TabViewItem.IconSelected> 
+                    <Grid>
+                        <Label
+                            HorizontalOptions="Center"
+                            VerticalOptions="Center"
+                            Text="TabContent1" />
+                    </Grid>                        
+                </xct:TabViewItem> 
+
+            </xct:TabView>
+</ContentPage>
+            

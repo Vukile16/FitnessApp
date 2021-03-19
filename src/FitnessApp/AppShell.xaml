@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:FitnessApp.Views"
+       xmlns:profile="clr-namespace:FitnessApp.Views.Profile"
+       xmlns:helpers="clr-namespace:FitnessApp.Helpers"
+       Title="FitnessApp"
+       x:Class="FitnessApp.AppShell">
+
+    <!--
+        The overall app visual hierarchy is defined here, along with navigation.
+    
+        https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
+    -->
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <Setter Property="Shell.BackgroundColor" Value="{StaticResource Background}" />
+                <Setter Property="Shell.ForegroundColor" Value="{StaticResource Background}" />
+                <Setter Property="Shell.TitleColor" Value="White" />
+                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+                <Setter Property="Shell.UnselectedColor" Value="{StaticResource TabIconUnselected}" />
+                <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource TabBarBackground}" />
+                <!--<Setter Property="Shell.TabBarForegroundColor" Value="{StaticResource TabIconSelected}"/>-->
+                <Setter Property="Shell.TabBarUnselectedColor" Value="{StaticResource TabIconUnselected}"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="{StaticResource TabIconSelected}"/>
+            </Style>
+            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+            <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
+            
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <TabBar>
+        <Tab Title="Featured"
+             Route="FeaturedPage"
+             Shell.NavBarIsVisible="False">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FASolid"
+                                 Glyph="{x:Static helpers:FAIcons.Star}"/>
+            </Tab.Icon>
+            <ShellContent 
+                    ContentTemplate="{DataTemplate local:FeaturedPage}" />
+        </Tab>
+
+        <Tab Title="Challenges"
+             Route="ChallengesPage"
+             Shell.NavBarIsVisible="True">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FASolid"
+                                 Glyph="{x:Static helpers:FAIcons.Trophy}"/>
+            </Tab.Icon>
+            <ShellContent 
+                    ContentTemplate="{DataTemplate local:ChallengesPage}" />
+            <!--<ShellContent 
+                Title="Upcoming"
+                    ContentTemplate="{DataTemplate local:ChallengesPage}" />     
+            <ShellContent 
+                Title="Completed"
+                    ContentTemplate="{DataTemplate local:ChallengesPage}" />-->
+        </Tab>
+
+        <Tab Title="Classes"
+             Route="ClassesPage"
+             Shell.NavBarIsVisible="False">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FARegular"
+                                 Glyph="{x:Static helpers:FAIcons.PlayCircle}"/>
+            </Tab.Icon>
+            <ShellContent 
+                    ContentTemplate="{DataTemplate local:ClassesPage}" />
+        </Tab>
+
+        <Tab Title="Profile"
+             Route="ProfilePage"
+             Shell.NavBarIsVisible="False">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FASolid"
+                                 Glyph="{x:Static helpers:FAIcons.User}"/>
+            </Tab.Icon>
+            <ShellContent 
+                Title="OVERVIEW"
+                ContentTemplate="{DataTemplate profile:ProfileOverviewPage}" /> 
+            <ShellContent 
+                Title="WORKOUTS"
+                ContentTemplate="{DataTemplate profile:ProfileWorkoutsPage}" />
+            <ShellContent 
+                Title="ACHIEVEMENTS"
+                ContentTemplate="{DataTemplate profile:ProfileAchievementsPage}" />
+        </Tab>
+
+        <Tab Title="More"
+             Route="MorePage"
+             Shell.NavBarIsVisible="False">
+            <Tab.Icon>
+                <FontImageSource FontFamily="FASolid" 
+                                 Glyph="{x:Static helpers:FAIcons.GripLines}"/>
+            </Tab.Icon>
+            <ShellContent 
+                    ContentTemplate="{DataTemplate local:MorePage}" />
+        </Tab>
+    </TabBar>
+
+
+</Shell>

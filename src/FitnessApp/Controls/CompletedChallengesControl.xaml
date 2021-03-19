@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FitnessApp.Controls.CompletedChallengesControl"
+             xmlns:helpers="clr-namespace:FitnessApp.Helpers">
+  <ContentView.Content>
+      <StackLayout>
+            <CollectionView 
+            Grid.Row="1"
+            ItemsLayout="VerticalList" 
+            VerticalOptions="Start">
+                <CollectionView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Item One</x:String>
+                        <x:String>Item Two</x:String>
+                        <x:String>Item Three</x:String>
+                        <x:String>Item Three</x:String>
+                        <x:String>Item Three</x:String>
+                    </x:Array>
+                </CollectionView.ItemsSource>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="16,8">
+                            <Frame 
+                            CornerRadius="8" 
+                            WidthRequest="320"
+                            IsClippedToBounds="True"
+                            Padding="0" 
+                            HasShadow="False"
+                            BackgroundColor="{StaticResource CardBackground}">
+                                <Grid RowDefinitions="100,Auto">
+                                    <StackLayout Padding="16" Spacing="0">
+                                        <StackLayout.Background>
+                                            <LinearGradientBrush StartPoint="0,0"
+                                                    EndPoint="1,1">
+                                                <GradientStop Color="#8A2387"
+                                                Offset="0.1"/>
+                                                <GradientStop Color="#E94057"
+                                                Offset="0.6"/>
+                                                <GradientStop Color="#F27121"
+                                                Offset="1.0"/>
+                                            </LinearGradientBrush>
+                                        </StackLayout.Background>
+                                        <Label 
+                                            FontSize="Small" 
+                                            VerticalTextAlignment="Center"
+                                            TextColor="White"
+                                            Text="ENDED 12/31/2020" />
+                                        <Label 
+                                            FontSize="Medium" 
+                                            VerticalTextAlignment="Center"
+                                            TextColor="White"
+                                            Text="Holiday Activity Challenge" />
+                                    </StackLayout>
+                                    <StackLayout Grid.Row="1"
+                                                 Orientation="Horizontal"
+                                                 Padding="16">
+                                        <Label 
+                                            FontSize="Medium" 
+                                            VerticalTextAlignment="Center"
+                                            TextColor="{StaticResource TextPrimary}"
+                                            Text="Earned Gold" />
+                                        <Label 
+                                            Text=" - " 
+                                            FontSize="Micro"  
+                                            TextColor="{StaticResource TextSecondary}"
+                                            VerticalTextAlignment="Center"/>
+                                        <Label 
+                                            FontSize="Small" 
+                                            VerticalTextAlignment="Center"
+                                            TextColor="{StaticResource TextPrimary}"
+                                            Text="29 days" />
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                            <Frame 
+                                HeightRequest="80"
+                                WidthRequest="80"
+                                CornerRadius="40"
+                                Padding="0"
+                                Margin="0,60,16,16"
+                                HorizontalOptions="End"
+                                VerticalOptions="Start"
+                                BorderColor="White"
+                                BackgroundColor="{StaticResource Accent}"
+                                HasShadow="False">
+                                <Label 
+                                    Text="{x:Static helpers:FAIcons.Gifts}"
+                                    FontSize="28"
+                                    TextColor="White"
+                                    HorizontalOptions="Center"
+                                    VerticalOptions="Center"
+                                    FontFamily="FASolid"/>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+  </ContentView.Content>
+</ContentView>
