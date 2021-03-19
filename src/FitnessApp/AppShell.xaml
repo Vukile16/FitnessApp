@@ -16,11 +16,11 @@
     <Shell.Resources>
         <ResourceDictionary>
             <Style x:Key="BaseStyle" TargetType="Element">
-                <Setter Property="Shell.BackgroundColor" Value="{StaticResource Background}" />
-                <Setter Property="Shell.ForegroundColor" Value="{StaticResource Background}" />
-                <Setter Property="Shell.TitleColor" Value="White" />
+                <Setter Property="Shell.BackgroundColor" Value="#FFFEFF" />
+                <Setter Property="Shell.ForegroundColor" Value="Black" />
+                <Setter Property="Shell.TitleColor" Value="Black" />
                 <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
-                <Setter Property="Shell.UnselectedColor" Value="{StaticResource TabIconUnselected}" />
+                <Setter Property="Shell.UnselectedColor" Value="#B4B4BA" />
                 <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource TabBarBackground}" />
                 <!--<Setter Property="Shell.TabBarForegroundColor" Value="{StaticResource TabIconSelected}"/>-->
                 <Setter Property="Shell.TabBarUnselectedColor" Value="{StaticResource TabIconUnselected}"/>
@@ -74,7 +74,7 @@
 
         <Tab Title="Profile"
              Route="ProfilePage"
-             Shell.NavBarIsVisible="False">
+             Shell.NavBarIsVisible="True">
             <Tab.Icon>
                 <FontImageSource FontFamily="FASolid"
                                  Glyph="{x:Static helpers:FAIcons.User}"/>

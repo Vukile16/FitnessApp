@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "MonoAndroid,Version=v10.0": {
-      "MonkeyCache/1.5.1": {
+      "MonkeyCache/1.5.2": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
@@ -17,10 +17,10 @@
           "lib/monoandroid90/MonkeyCache.dll": {}
         }
       },
-      "MonkeyCache.FileStore/1.5.1": {
+      "MonkeyCache.FileStore/1.5.2": {
         "type": "package",
         "dependencies": {
-          "MonkeyCache": "1.5.1",
+          "MonkeyCache": "1.5.2",
           "Newtonsoft.Json": "12.0.3"
         },
         "frameworkAssemblies": [
@@ -1194,7 +1194,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "MonkeyCache.FileStore": "1.5.1",
+          "MonkeyCache.FileStore": "1.5.2",
           "Newtonsoft.Json": "12.0.3",
           "Refractored.MvvmHelpers": "1.6.2",
           "Resizetizer.NT": "0.2.0",
@@ -1215,10 +1215,10 @@
     }
   },
   "libraries": {
-    "MonkeyCache/1.5.1": {
-      "sha512": "X38b1PIXqei8SMrzZ7oRcXqEnynrPV1xegdqvK0UaTmzz8+o7u2jpztto155xZnHXG0DTy/Mjy+RDtmjR5vlzw==",
+    "MonkeyCache/1.5.2": {
+      "sha512": "RdR4LyW7MemYfnQ1nNMfL7xZZFFKHUdF2TG7rd/sYDBQNcJ4sFSPK3YdaJleEKXGpova01cqdttFbXN+fE+FQg==",
       "type": "package",
-      "path": "monkeycache/1.5.1",
+      "path": "monkeycache/1.5.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1253,14 +1253,14 @@
         "lib/xamarinwatchos10/MonkeyCache.dll",
         "lib/xamarinwatchos10/MonkeyCache.pdb",
         "lib/xamarinwatchos10/MonkeyCache.xml",
-        "monkeycache.1.5.1.nupkg.sha512",
+        "monkeycache.1.5.2.nupkg.sha512",
         "monkeycache.nuspec"
       ]
     },
-    "MonkeyCache.FileStore/1.5.1": {
-      "sha512": "FG3uc6cc8nikp3d1JT1kf/abovF9G7Jf6BCnCqayOxU9wxOmsvdjn1Rql2+JSnm9g3zKWtQqZDJkU1wEzecUJg==",
+    "MonkeyCache.FileStore/1.5.2": {
+      "sha512": "a/tpYXD+4T9IbDGHx9tCH+VHxocL1Sx/mrOWKbIRyjfeoAMLjP70qGqg+p1GGb/Mf4wNM/Fgcn65FaKl7Ir/NQ==",
       "type": "package",
-      "path": "monkeycache.filestore/1.5.1",
+      "path": "monkeycache.filestore/1.5.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1295,7 +1295,7 @@
         "lib/xamarinwatchos10/MonkeyCache.FileStore.dll",
         "lib/xamarinwatchos10/MonkeyCache.FileStore.pdb",
         "lib/xamarinwatchos10/MonkeyCache.FileStore.xml",
-        "monkeycache.filestore.1.5.1.nupkg.sha512",
+        "monkeycache.filestore.1.5.2.nupkg.sha512",
         "monkeycache.filestore.nuspec"
       ]
     },
@@ -2899,7 +2899,7 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v10.0": [
       "FitnessApp >= 1.0.0",
-      "MonkeyCache.FileStore >= 1.5.1",
+      "MonkeyCache.FileStore >= 1.5.2",
       "Newtonsoft.Json >= 12.0.3",
       "Refractored.MvvmHelpers >= 1.6.2",
       "Resizetizer.NT >= 0.2.0",
@@ -2958,7 +2958,7 @@
         "dependencies": {
           "MonkeyCache.FileStore": {
             "target": "Package",
-            "version": "[1.5.1, )"
+            "version": "[1.5.2, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

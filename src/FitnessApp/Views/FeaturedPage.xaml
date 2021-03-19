@@ -5,7 +5,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:FitnessApp.ViewModels"
              mc:Ignorable="d"
-             BackgroundColor="{d:StaticResource Background}"
+             BackgroundColor="{StaticResource Background}"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
              ios:Page.UseSafeArea="True">
     <d:ContentPage.BindingContext>

@@ -46,7 +46,7 @@
           "dependencies": {
             "MonkeyCache.FileStore": {
               "target": "Package",
-              "version": "[1.5.1, )"
+              "version": "[1.5.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -143,7 +143,7 @@
           "dependencies": {
             "MonkeyCache.FileStore": {
               "target": "Package",
-              "version": "[1.5.1, )"
+              "version": "[1.5.2, )"
             },
             "NETStandard.Library": {
               "suppressParent": "All",

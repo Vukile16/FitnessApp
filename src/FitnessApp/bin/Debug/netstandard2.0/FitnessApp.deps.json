@@ -9,7 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "FitnessApp/1.0.0": {
         "dependencies": {
-          "MonkeyCache.FileStore": "1.5.1",
+          "MonkeyCache.FileStore": "1.5.2",
           "NETStandard.Library": "2.0.3",
           "Newtonsoft.Json": "12.0.3",
           "Refractored.MvvmHelpers": "1.6.2",
@@ -27,7 +27,7 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
-      "MonkeyCache/1.5.1": {
+      "MonkeyCache/1.5.2": {
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
         },
@@ -38,9 +38,9 @@
           }
         }
       },
-      "MonkeyCache.FileStore/1.5.1": {
+      "MonkeyCache.FileStore/1.5.2": {
         "dependencies": {
-          "MonkeyCache": "1.5.1",
+          "MonkeyCache": "1.5.2",
           "Newtonsoft.Json": "12.0.3"
         },
         "runtime": {
@@ -265,19 +265,19 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
-    "MonkeyCache/1.5.1": {
+    "MonkeyCache/1.5.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-X38b1PIXqei8SMrzZ7oRcXqEnynrPV1xegdqvK0UaTmzz8+o7u2jpztto155xZnHXG0DTy/Mjy+RDtmjR5vlzw==",
-      "path": "monkeycache/1.5.1",
-      "hashPath": "monkeycache.1.5.1.nupkg.sha512"
+      "sha512": "sha512-RdR4LyW7MemYfnQ1nNMfL7xZZFFKHUdF2TG7rd/sYDBQNcJ4sFSPK3YdaJleEKXGpova01cqdttFbXN+fE+FQg==",
+      "path": "monkeycache/1.5.2",
+      "hashPath": "monkeycache.1.5.2.nupkg.sha512"
     },
-    "MonkeyCache.FileStore/1.5.1": {
+    "MonkeyCache.FileStore/1.5.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FG3uc6cc8nikp3d1JT1kf/abovF9G7Jf6BCnCqayOxU9wxOmsvdjn1Rql2+JSnm9g3zKWtQqZDJkU1wEzecUJg==",
-      "path": "monkeycache.filestore/1.5.1",
-      "hashPath": "monkeycache.filestore.1.5.1.nupkg.sha512"
+      "sha512": "sha512-a/tpYXD+4T9IbDGHx9tCH+VHxocL1Sx/mrOWKbIRyjfeoAMLjP70qGqg+p1GGb/Mf4wNM/Fgcn65FaKl7Ir/NQ==",
+      "path": "monkeycache.filestore/1.5.2",
+      "hashPath": "monkeycache.filestore.1.5.2.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",

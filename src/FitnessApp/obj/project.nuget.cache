@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Opv84ajECC73rWhBCKBfRydmGThhynL6Oxc03EtbEgi9E2X73/uoz1/DQ2yzUWC2QJAxZOrItlGgalde2nbWpA==",
+  "dgSpecHash": "OrXqjjYDZoQc4hExQ/sSApWUC/dB0iW3f2GulDj1XqD56DUAr6w4BNT3KI9pS1kDVztHydOzikvgfsYDTUj2vw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tiledi Kekana\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp\\FitnessApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\monkeycache\\1.5.1\\monkeycache.1.5.1.nupkg.sha512",
-    "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\monkeycache.filestore\\1.5.1\\monkeycache.filestore.1.5.1.nupkg.sha512",
+    "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\monkeycache\\1.5.2\\monkeycache.1.5.2.nupkg.sha512",
+    "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\monkeycache.filestore\\1.5.2\\monkeycache.filestore.1.5.2.nupkg.sha512",
     "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",

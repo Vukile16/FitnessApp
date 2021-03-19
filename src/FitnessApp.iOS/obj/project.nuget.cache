@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Gm959AdC49xj770drkdQ1psuv7mywPknKomV5EzMk6febtra/ecX7kyaQeillla4cWV0DeZW6xmeQFuXVsoWVw==",
+  "dgSpecHash": "K6zhTmJZOXtarin/1hkr4Ifge/Bf7M33bbY7U7o5fEJfTp9gQBY8dJQOYj9JeSgQwxJl7aN2ROnOdPVoXIQH3w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tiledi Kekana\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp.iOS\\FitnessApp.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\monkeycache\\1.5.1\\monkeycache.1.5.1.nupkg.sha512",
-    "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\monkeycache.filestore\\1.5.1\\monkeycache.filestore.1.5.1.nupkg.sha512",
+    "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\monkeycache\\1.5.2\\monkeycache.1.5.2.nupkg.sha512",
+    "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\monkeycache.filestore\\1.5.2\\monkeycache.filestore.1.5.2.nupkg.sha512",
     "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\refractored.mvvmhelpers\\1.6.2\\refractored.mvvmhelpers.1.6.2.nupkg.sha512",
     "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\resizetizer.nt\\0.2.0\\resizetizer.nt.0.2.0.nupkg.sha512",
