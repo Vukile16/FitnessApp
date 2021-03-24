@@ -79,9 +79,10 @@
                 <FontImageSource FontFamily="FASolid"
                                  Glyph="{x:Static helpers:FAIcons.User}"/>
             </Tab.Icon>
+            
             <ShellContent 
                 Title="OVERVIEW"
-                ContentTemplate="{DataTemplate profile:ProfileOverviewPage}" /> 
+                ContentTemplate="{DataTemplate profile:ProfileOverviewPage}"/>
             <ShellContent 
                 Title="WORKOUTS"
                 ContentTemplate="{DataTemplate profile:ProfileWorkoutsPage}" />

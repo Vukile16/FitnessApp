@@ -2,7 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FitnessApp.Views.Profile.ProfileWorkoutsPage"
+             xmlns:models="clr-namespace:FitnessApp.Models"
+             xmlns:viewmodels="clr-namespace:FitnessApp.ViewModels"
+             xmlns:helpers="clr-namespace:FitnessApp.Helpers"
              BackgroundColor="{StaticResource Background}">
+    <ContentPage.BindingContext>
+        <viewmodels:ProfileWorkoutsViewModel/>
+    </ContentPage.BindingContext>
     <Shell.TitleView>
         <StackLayout HorizontalOptions="FillAndExpand"
                      VerticalOptions="FillAndExpand">
@@ -18,11 +24,149 @@
                 BackgroundColor="#DDD"/>
         </StackLayout>
     </Shell.TitleView>
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="WORKOUTS!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+   
+    <CollectionView BackgroundColor="Transparent"
+                    Margin="0,0,0,10">
+        <CollectionView.ItemsSource>
+            <x:Array Type="{x:Type models:FinishedWorkout}">
+                <models:FinishedWorkout Name="30 min Advanced Beginner Ride"
+                                        Instructor="HANNA FRANKSON"
+                                        ActivityType="CYCLING"
+                                        FinishedDate="01/16/21 @ 5:12 PM"
+                                        AiredDate="From Thu 01/14/21 @ 10:00 PM"
+                                        RideLocation="App"
+                                        Image="strength"/>
+                
+                <models:FinishedWorkout Name="35 min Advanced Beginner Ride"
+                                        Instructor="HANNA FRANKSON"
+                                        ActivityType="CYCLING"
+                                        FinishedDate="01/16/21 @ 5:12 PM"
+                                        AiredDate="From Thu 01/14/21 @ 10:00 PM"
+                                        RideLocation="App" 
+                                        Image="strength"/>
+                
+                <models:FinishedWorkout Name="40 min Advanced Beginner Ride"
+                                        Instructor="HANNA FRANKSON"
+                                        ActivityType="CYCLING"
+                                        FinishedDate="01/16/21 @ 5:12 PM"
+                                        AiredDate="From Thu 01/14/21 @ 10:00 PM"
+                                        RideLocation="App" 
+                                        Image="strength"/>
+                
+                <models:FinishedWorkout Name="50 min Advanced Beginner Ride"
+                                        Instructor="HANNA FRANKSON"
+                                        ActivityType="CYCLING"
+                                        FinishedDate="01/16/21 @ 5:12 PM"
+                                        AiredDate="From Thu 01/14/21 @ 10:00 PM"
+                                        RideLocation="App"
+                                        Image="strength"/>
+                
+                <models:FinishedWorkout Name="60 min Advanced Beginner Ride"
+                                        Instructor="HANNA FRANKSON"
+                                        ActivityType="CYCLING"
+                                        FinishedDate="01/16/21 @ 5:12 PM"
+                                        AiredDate="From Thu 01/14/21 @ 10:00 PM"
+                                        RideLocation="App"
+                                        Image="strength"/>
+            </x:Array>
+        </CollectionView.ItemsSource>
+        <CollectionView.Header>
+            <StackLayout Padding="0,8,0,0">
+                <Label Margin="{OnIdiom Phone='24,0', Tablet='100,0'}"
+                       Text="80 WORKOUTS"
+                       TextColor="{StaticResource TextPrimary}"
+                       FontSize="Small"/>
+            </StackLayout>
+        </CollectionView.Header>
+        <CollectionView.ItemTemplate>
+            <DataTemplate>
+                <Grid Padding="0,4">
+                    <Frame Margin="{OnIdiom Phone='24,0', Tablet='100,0'}"
+                           Padding="0"
+                           CornerRadius="8"
+                           HasShadow="False">
+                        <Grid RowDefinitions="Auto,Auto"
+                              ColumnDefinitions="Auto,*,Auto">
+                            <Image
+                                Margin="8,8,0,0"
+                                HeightRequest="60"
+                                HorizontalOptions="Center"
+                                Source="{Binding Image}"
+                                VerticalOptions="Center"
+                                WidthRequest="60">
+                                <Image.Clip>
+                                    <EllipseGeometry
+                                        Center="30,30"
+                                        RadiusX="29"
+                                        RadiusY="29"/>
+                                </Image.Clip>
+                            </Image>
+
+                            <StackLayout Grid.Column="1"
+                                         Spacing="2"
+                                         Padding="4"
+                                         VerticalOptions="Center">
+                                <Label Text="{Binding Name}"
+                                       FontSize="Small"
+                                       TextColor="{StaticResource TextPrimary}"/>
+                                <StackLayout Orientation="Horizontal">
+                                    
+                                    <Label Text="{Binding Instructor}"
+                                           FontSize="Micro"
+                                           TextColor="{StaticResource TextPrimary}"/>
+                                    <Label 
+                                            Text=" - " 
+                                            FontSize="Micro"  
+                                            TextColor="{StaticResource TextPrimary}"
+                                            VerticalTextAlignment="Center"/>
+
+                                    <Label Text="{Binding ActivityType}"
+                                           FontSize="Micro"
+                                           TextColor="{StaticResource TextPrimary}"/>
+                                </StackLayout>
+                                <Label Text="{Binding AiredDate}"
+                                           FontSize="Micro"
+                                           TextColor="{StaticResource TextPrimary}"/>
+                            </StackLayout>
+
+                            <Label Text="{x:Static helpers:FAIcons.EllipsisV}"
+                                   FontFamily="FASolid"
+                                   Grid.Column="2"
+                                   Margin="0,0,6,0"
+                                   VerticalOptions="Center">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer
+                                        Command="{Binding
+                                        Source={RelativeSource AncestorType={x:Type viewmodels:ProfileWorkoutsViewModel}},
+                                        Path=WorkoutOptionsCommand}"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+
+                            <BoxView Grid.Row="1"
+                                     Grid.ColumnSpan="3"           
+                                     HeightRequest="30"
+                                     BackgroundColor="{StaticResource WorkoutBottomBackground}"/>
+
+                            <Label Text="{Binding FinishedDate}"
+                                   Grid.Row="1"
+                                   Grid.ColumnSpan="2"
+                                   Margin="8,4"
+                                   TextColor="{StaticResource TextPrimary}"
+                                   FontSize="Micro"
+                                   VerticalOptions="Center"/>
+                            <Label Text="{Binding RideLocation}"
+                                   Grid.Row="1"
+                                   Grid.Column="1"
+                                   Margin="8,4"
+                                   FontSize="Micro"
+                                   TextColor="{StaticResource TextPrimary}"
+                                   HorizontalOptions="End"
+                                   Grid.ColumnSpan="2"/>
+
+                        </Grid>
+                    </Frame>
+                </Grid>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
 </ContentPage>
