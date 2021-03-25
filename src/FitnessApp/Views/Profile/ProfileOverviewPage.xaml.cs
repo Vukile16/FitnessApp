@@ -12,9 +12,15 @@ namespace FitnessApp.Views.Profile
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProfileOverviewPage : ContentPage
     {
+        public List<string> Days { get; set; }
+        public List<string> Week1 { get; set; }
         public ProfileOverviewPage()
         {
             InitializeComponent();
+            Days = new List<string> { "M", "T", "W", "T", "F", "S", "S" };
+            Week1 = new List<string> { "18", "19", "20", "21", "22", "23", "24" };
+            BindingContext = this;
         }
+
     }
 }

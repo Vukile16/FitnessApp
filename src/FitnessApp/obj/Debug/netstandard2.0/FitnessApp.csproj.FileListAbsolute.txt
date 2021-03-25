@@ -45,7 +45,6 @@ C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp\bin\Debug\nets
 C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp\bin\Debug\netstandard2.0\FitnessApp.dll
 C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp\bin\Debug\netstandard2.0\ref\FitnessApp.dll
 C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp\bin\Debug\netstandard2.0\FitnessApp.pdb
-C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp\obj\Debug\netstandard2.0\FitnessApp.csprojAssemblyReference.cache
 C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
 C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp\obj\Debug\netstandard2.0\Controls\ActiveChallengesView.xaml.g.cs

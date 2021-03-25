@@ -223,4 +223,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\strength.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\vukile.jpg" />
+  </ItemGroup>
 </Project>

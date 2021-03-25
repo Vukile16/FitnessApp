@@ -1292,3 +1292,4 @@ C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\De
 C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\stamp\_GenerateJavaStubs.stamp
 C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\res\drawable-nodpi\vukile.jpg

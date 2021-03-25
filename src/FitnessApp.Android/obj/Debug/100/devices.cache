@@ -1,1 +1,1 @@
-<Devices><Device id="ce0616067b2d8b0c04"><ResultingAbi>arm64-v8a</ResultingAbi><SdkVersion>26</SdkVersion></Device><Device id="emulator-5554"><ResultingAbi>x86</ResultingAbi><SdkVersion>28</SdkVersion></Device></Devices>
+<Devices><Device id="emulator-5554"><ResultingAbi>x86</ResultingAbi><SdkVersion>28</SdkVersion></Device><Device id="ce0616067b2d8b0c04"><ResultingAbi>arm64-v8a</ResultingAbi><SdkVersion>26</SdkVersion></Device></Devices>
