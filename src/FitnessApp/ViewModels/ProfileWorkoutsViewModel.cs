@@ -10,6 +10,7 @@ namespace FitnessApp.ViewModels
     public class ProfileWorkoutsViewModel : BaseViewModel
     {
         public AsyncCommand  WorkoutOptionsCommand { get; }
+
         public ProfileWorkoutsViewModel()
         {
             WorkoutOptionsCommand = new AsyncCommand(WorkoutOptions);

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!--ios:Page.UseSafeArea="True"-->
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FitnessApp.Views.ChallengesPage"
              BackgroundColor="{StaticResource Background}"             
              xmlns:helpers="clr-namespace:FitnessApp.Helpers" 
              xmlns:viewmodels="clr-namespace:FitnessApp.ViewModels" 
-             xmlns:converters="clr-namespace:FitnessApp.Converters" xmlns:controls="clr-namespace:FitnessApp.Controls"
+             xmlns:converters="clr-namespace:FitnessApp.Converters" 
+             xmlns:controls="clr-namespace:FitnessApp.Controls"
              Shell.NavBarIsVisible="False"
              x:DataType="viewmodels:ChallengesViewModel"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
