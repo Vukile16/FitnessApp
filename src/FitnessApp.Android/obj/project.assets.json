@@ -2912,18 +2912,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\": {},
+    "C:\\Users\\vukil\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tiledi Kekana\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp.Android\\FitnessApp.Android.csproj",
+      "projectUniqueName": "C:\\Users\\vukil\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp.Android\\FitnessApp.Android.csproj",
       "projectName": "FitnessApp.Android",
-      "projectPath": "C:\\Users\\Tiledi Kekana\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp.Android\\FitnessApp.Android.csproj",
-      "packagesPath": "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tiledi Kekana\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp.Android\\obj\\",
+      "projectPath": "C:\\Users\\vukil\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp.Android\\FitnessApp.Android.csproj",
+      "packagesPath": "C:\\Users\\vukil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vukil\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2931,7 +2931,7 @@
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tiledi Kekana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vukil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -2946,8 +2946,8 @@
       "frameworks": {
         "monoandroid10.0": {
           "projectReferences": {
-            "C:\\Users\\Tiledi Kekana\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp\\FitnessApp.csproj": {
-              "projectPath": "C:\\Users\\Tiledi Kekana\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp\\FitnessApp.csproj"
+            "C:\\Users\\vukil\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp\\FitnessApp.csproj": {
+              "projectPath": "C:\\Users\\vukil\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp\\FitnessApp.csproj"
             }
           }
         }

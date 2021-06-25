@@ -18,7 +18,7 @@
             <Color x:Key="Accent">#FF344A</Color>
             <Color x:Key="CardHeaderBackground">#F9F7FC</Color>
             <Color x:Key="BlueAccent">#49679B</Color>
-
+            <Color x:Key="MoreInstructorBackground">#E5E7ED</Color>
             <Color x:Key="TabIconSelected">#FF344A</Color>
             <Color x:Key="TabIconUnselected">#2C2D31</Color>
             <Color x:Key="TextSecondary">#606572</Color>

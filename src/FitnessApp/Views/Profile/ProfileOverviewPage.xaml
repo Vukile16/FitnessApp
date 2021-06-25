@@ -27,6 +27,7 @@
                 BackgroundColor="#DDD"/>
         </StackLayout>
     </Shell.TitleView>
+    
     <ScrollView>
         <StackLayout Padding="8">
             <Frame Padding="0,12"

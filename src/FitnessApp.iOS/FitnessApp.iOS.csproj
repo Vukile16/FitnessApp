@@ -226,4 +226,16 @@
   <ItemGroup>
     <BundleResource Include="Resources\vukile.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\program1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\program2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\collection1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\collection2.png" />
+  </ItemGroup>
 </Project>

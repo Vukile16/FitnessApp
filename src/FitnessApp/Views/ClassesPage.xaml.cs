@@ -16,5 +16,10 @@ namespace FitnessApp.Views
         {
             InitializeComponent();
         }
+
+        private async void Collections_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            await Shell.Current.GoToAsync(nameof(CollectionDetailPage));
+        }
     }
 }

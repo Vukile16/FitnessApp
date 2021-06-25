@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\FitnessApp",
+    "\\src\\FitnessApp\\Views",
+    "\\src\\FitnessApp\\Views\\Profile"
   ],
-  "SelectedNode": "\\src\\FitnessApp.sln",
+  "SelectedNode": "\\src\\FitnessApp\\Views\\Profile\\ProfileOverviewPage.xaml",
   "PreviewInSolutionExplorer": false
 }

@@ -1,57 +1,57 @@
-@string/appbar_scrolling_view_behavior;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\rootlayout.xml
+@string/appbar_scrolling_view_behavior;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\rootlayout.xml
 adaptive-icon;obj\Debug\100\res\mipmap-anydpi-v26\ic_launcher.xml
 adaptive-icon;obj\Debug\100\res\mipmap-anydpi-v26\ic_launcher_round.xml
-alpha;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\enterfromleft.xml
-alpha;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\exittoleft.xml
+alpha;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\enterfromleft.xml
+alpha;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\exittoleft.xml
 android.support.design.widget.TabLayout;obj\Debug\100\res\layout\tabbar.xml
 android.support.v7.widget.Toolbar;obj\Debug\100\res\layout\toolbar.xml
-androidx.appcompat.widget.Toolbar;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\fallbacktoolbardonotuse.xml
-androidx.appcompat.widget.Toolbar;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\rootlayout.xml
-androidx.appcompat.widget.Toolbar;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\shellcontent.xml
-androidx.appcompat.widget.Toolbar;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\toolbar.xml
-androidx.coordinatorlayout.widget.CoordinatorLayout;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\rootlayout.xml
-androidx.coordinatorlayout.widget.CoordinatorLayout;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\shellcontent.xml
-attr;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\attrs.xml
+androidx.appcompat.widget.Toolbar;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\fallbacktoolbardonotuse.xml
+androidx.appcompat.widget.Toolbar;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\rootlayout.xml
+androidx.appcompat.widget.Toolbar;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\shellcontent.xml
+androidx.appcompat.widget.Toolbar;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\toolbar.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\rootlayout.xml
+androidx.coordinatorlayout.widget.CoordinatorLayout;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\shellcontent.xml
+attr;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\attrs.xml
 background;obj\Debug\100\res\mipmap-anydpi-v26\ic_launcher.xml
 background;obj\Debug\100\res\mipmap-anydpi-v26\ic_launcher_round.xml
-cache-path;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\52\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+cache-path;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\52\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 color;obj\Debug\100\res\values\colors.xml
 color;obj\Debug\100\res\values\ic_launcher_background.xml
-com.google.android.material.appbar.AppBarLayout;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\flyoutcontent.xml
-com.google.android.material.appbar.AppBarLayout;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\rootlayout.xml
-com.google.android.material.appbar.AppBarLayout;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\shellcontent.xml
-com.google.android.material.bottomnavigation.BottomNavigationView;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\bottomtablayout.xml
-com.google.android.material.tabs.TabLayout;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\fallbacktabbardonotuse.xml
-com.google.android.material.tabs.TabLayout;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\rootlayout.xml
-com.google.android.material.tabs.TabLayout;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\tabbar.xml
-declare-styleable;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\attrs.xml
-external-cache-path;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\52\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-external-path;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\52\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+com.google.android.material.appbar.AppBarLayout;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\flyoutcontent.xml
+com.google.android.material.appbar.AppBarLayout;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\rootlayout.xml
+com.google.android.material.appbar.AppBarLayout;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\shellcontent.xml
+com.google.android.material.bottomnavigation.BottomNavigationView;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\bottomtablayout.xml
+com.google.android.material.tabs.TabLayout;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\fallbacktabbardonotuse.xml
+com.google.android.material.tabs.TabLayout;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\rootlayout.xml
+com.google.android.material.tabs.TabLayout;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\tabbar.xml
+declare-styleable;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\attrs.xml
+external-cache-path;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\52\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+external-path;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\52\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
 foreground;obj\Debug\100\res\mipmap-anydpi-v26\ic_launcher.xml
 foreground;obj\Debug\100\res\mipmap-anydpi-v26\ic_launcher_round.xml
-FrameLayout;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\51\jl\res\layout\camerafragment.xml
-FrameLayout;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\bottomtablayout.xml
-item;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\styles.xml
+FrameLayout;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\51\jl\res\layout\camerafragment.xml
+FrameLayout;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\bottomtablayout.xml
+item;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\styles.xml
 item;obj\Debug\100\res\values\styles.xml
-LinearLayout;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\bottomtablayout.xml
-paths;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\52\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
-resources;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\attrs.xml
-resources;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\strings.xml
-resources;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\styles.xml
+LinearLayout;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\bottomtablayout.xml
+paths;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\52\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\attrs.xml
+resources;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\strings.xml
+resources;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\styles.xml
 resources;obj\Debug\100\res\values\colors.xml
 resources;obj\Debug\100\res\values\ic_launcher_background.xml
 resources;obj\Debug\100\res\values\styles.xml
-set;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\enterfromleft.xml
-set;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\enterfromright.xml
-set;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\exittoleft.xml
-set;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\exittoright.xml
-string;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\strings.xml
-style;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\styles.xml
+set;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\enterfromleft.xml
+set;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\enterfromright.xml
+set;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\exittoleft.xml
+set;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\exittoright.xml
+string;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\strings.xml
+style;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\values\styles.xml
 style;obj\Debug\100\res\values\styles.xml
-translate;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\enterfromleft.xml
-translate;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\enterfromright.xml
-translate;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\exittoleft.xml
-translate;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\exittoright.xml
-xamarin.communitytoolkit.ui.views.AutoFitTextureView;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\51\jl\res\layout\camerafragment.xml
-xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\rootlayout.xml
-xamarin.forms.platform.android.ShellFlyoutLayout;C:\Users\Tiledi Kekana\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\flyoutcontent.xml
+translate;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\enterfromleft.xml
+translate;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\enterfromright.xml
+translate;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\exittoleft.xml
+translate;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\anim\exittoright.xml
+xamarin.communitytoolkit.ui.views.AutoFitTextureView;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\51\jl\res\layout\camerafragment.xml
+xamarin.forms.platform.android.appcompat.FormsViewPager;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\rootlayout.xml
+xamarin.forms.platform.android.ShellFlyoutLayout;C:\Users\vukil\Documents\GitHub\FitnessApp\src\FitnessApp.Android\obj\Debug\100\lp\54\jl\res\layout\flyoutcontent.xml

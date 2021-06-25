@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              xmlns:helpers="clr-namespace:FitnessApp.Helpers"
+             xmlns:models="clr-namespace:FitnessApp.Models"
              x:Class="FitnessApp.Views.ClassesPage"
              BackgroundColor="{StaticResource Background}"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
@@ -97,21 +98,131 @@
                             Size="36"
                             Color="{StaticResource Accent}"
                             Glyph="{x:Static helpers:FAIcons.ListAlt}"/>
-                    </xct:TabViewItem.IconSelected> 
-                  <CollectionView>
-                    <CollectionView.ItemsSource>
-                        <x:Array Type="{x:Type x:String}">
-                            <x:String>Item One</x:String>
-                            <x:String>Item Two</x:String>
-                            <x:String>Item Three</x:String>
-                            <x:String>Item Three</x:String>
-                            <x:String>Item Three</x:String>
-                        </x:Array>
-                    </CollectionView.ItemsSource>
-                </CollectionView>              
-                </xct:TabViewItem>  
+                    </xct:TabViewItem.IconSelected>
+                <CollectionView 
+                         ItemsLayout="VerticalList"
+                         VerticalOptions="Start"
+                         Margin="0,35,0,0">
+                <CollectionView.ItemsSource>
+                    <x:Array Type="{x:Type models:ProgramCollection}">
+                        
+                        <models:ProgramCollection Image="program1.png"
+                                                  HasMoreInstructors="True"
+                                                  Instructor="vukile.jpg"
+                                                  MoreInstructors="+3"
+                                                  Name="Cycling"
+                                                  Type="PROGRAM"
+                                                  Number="5 WEEKS"/>
+
+                        <models:ProgramCollection Image="program2.png"
+                                                  HasMoreInstructors="False"
+                                                  Instructor="vukile.jpg"
+                                                  MoreInstructors="+3"
+                                                  Name="Strength"
+                                                  Type="PROGRAM"
+                                                  Number="4 WEEKS"/>
+
+                        <models:ProgramCollection Image="program1.png"
+                                                  HasMoreInstructors="True"
+                                                  Instructor="vukile.jpg"
+                                                  MoreInstructors="+3"
+                                                  Name="Running"
+                                                  Type="PROGRAM"
+                                                  Number="5 WEEKS"/>
+
+                        <models:ProgramCollection Image="program2.png"
+                                                  HasMoreInstructors="False"
+                                                  Instructor="vukile.jpg"
+                                                  MoreInstructors="+3"
+                                                  Name="Meditation"
+                                                  Type="PROGRAM"
+                                                  Number="4 WEEKS"/>
+                    </x:Array>
+                </CollectionView.ItemsSource>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:ProgramCollection">
+                        <Grid Padding="8,4">
+                            <Frame 
+                            CornerRadius="8" 
+                            WidthRequest="320" 
+                            Padding="0" 
+                            HasShadow="False"
+                            IsClippedToBounds="True"
+                            BackgroundColor="{StaticResource CardBackground}">
+                                <Grid RowDefinitions="210,Auto,Auto"
+                                      ColumnDefinitions="*,Auto"
+                                      Padding="0,0,0,12">
+                                    <Image Source="{Binding Image}"
+                                           Aspect="AspectFill"
+                                           Grid.ColumnSpan="2"/>
+                                    <StackLayout Orientation="Horizontal"
+                                                 Grid.Row="1"
+                                                 Padding="24,6,0,0">
+
+                                        <Label Text="{Binding Type}"
+                                           FontSize="Small"
+                                           TextColor="{StaticResource TextSecondary}"/>
+                                        <Label 
+                                            Text=" - " 
+                                            FontSize="Small"  
+                                            TextColor="{StaticResource TextSecondary}"
+                                            VerticalTextAlignment="Center"/>
+
+                                        <Label Text="{Binding Number}"
+                                           FontSize="Small"
+                                           TextColor="{StaticResource TextSecondary}"/>
+                                    </StackLayout>
+                                    <Label 
+                                        Grid.Row="2" 
+                                        Margin="24,0,0,0" 
+                                        FontSize="Small" 
+                                        TextColor="{StaticResource TextPrimary}"
+                                        Text="{Binding Name}" />
+
+                                    <StackLayout Orientation="Horizontal"
+                                                 Grid.Row="1"
+                                                 Grid.Column="1"
+                                                 Grid.RowSpan="2"
+                                                 Padding="0,0,18,0">
+                                        <Image
+                                            HeightRequest="50"
+                                            HorizontalOptions="Center"
+                                            Source="{Binding Instructor}"
+                                            VerticalOptions="Center"
+                                            WidthRequest="50">  
+                                            <Image.Clip>
+                                                <EllipseGeometry
+                                                    Center="25,25"
+                                                    RadiusX="24"
+                                                    RadiusY="25"/>
+                                            </Image.Clip>
+                                        </Image>
+
+                                        <Frame WidthRequest="46"
+                                               HeightRequest="46"
+                                               CornerRadius="23"
+                                               BackgroundColor="{StaticResource MoreInstructorBackground}"
+                                               HorizontalOptions="End"
+                                               VerticalOptions="Center"
+                                               Padding="0"
+                                               IsVisible="{Binding HasMoreInstructors}">
+
+                                            <Label HorizontalOptions="Center"
+                                                   VerticalOptions="Center"
+                                                   Text="{Binding MoreInstructors}"
+                                                   TextColor="{StaticResource TextPrimary}"/>
+                                        </Frame>
+
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                </CollectionView>
+            </xct:TabViewItem>  
                 
-                <xct:TabViewItem
+            <xct:TabViewItem
                     Text="Collections"
                     Style="{StaticResource TabViewItemStyle}"
                     ControlTemplate="{StaticResource TabItemTemplate}">
@@ -128,14 +239,133 @@
                             Size="36"
                             Color="{StaticResource Accent}"
                             Glyph="{x:Static helpers:FAIcons.WindowRestore}"/>
-                    </xct:TabViewItem.IconSelected> 
-                    <Grid>
-                        <Label
-                            HorizontalOptions="Center"
-                            VerticalOptions="Center"
-                            Text="TabContent1" />
-                    </Grid>                        
-                </xct:TabViewItem>  
+                    </xct:TabViewItem.IconSelected>
+            <CollectionView 
+                ItemsLayout="VerticalList"
+                VerticalOptions="Start"
+                Margin="0,35,0,0"
+                x:Name="Collections"
+                SelectionChanged="Collections_SelectionChanged"
+                SelectionMode="Single">
+                <CollectionView.ItemsSource>
+                    <x:Array Type="{x:Type models:ProgramCollection}">
+
+                        <models:ProgramCollection Image="collection1.png"
+                                                  HasMoreInstructors="True"
+                                                  Instructor="vukile.jpg"
+                                                  MoreInstructors="+3"
+                                                  Name="Yoga"
+                                                  Type="COLLECTION"
+                                                  Number="11 CLASSES"/>
+
+                        <models:ProgramCollection Image="collection2.png"
+                                                  HasMoreInstructors="False"
+                                                  Instructor="vukile.jpg"
+                                                  MoreInstructors="+3"
+                                                  Name="Cross Training"
+                                                  Type="COLLECTION"
+                                                  Number="12 CLASSES"/>
+
+                        <models:ProgramCollection Image="collection1.png"
+                                                  HasMoreInstructors="True"
+                                                  Instructor="vukile.jpg"
+                                                  MoreInstructors="+3"
+                                                  Name="Running2"
+                                                  Type="COLLECTION"
+                                                  Number="13 CLASSES"/>
+
+                        <models:ProgramCollection Image="collection2.png"
+                                                  HasMoreInstructors="False"
+                                                  Instructor="vukile.jpg"
+                                                  MoreInstructors="+3"
+                                                  Name="Meditation2"
+                                                  Type="COLLECTION"
+                                                  Number="15 CLASSES"/>
+                    </x:Array>
+                </CollectionView.ItemsSource>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:ProgramCollection">
+                        <Grid Padding="8,4">
+                            <Frame 
+                            CornerRadius="8" 
+                            WidthRequest="320" 
+                            Padding="0" 
+                            HasShadow="False"
+                            IsClippedToBounds="True"
+                            BackgroundColor="{StaticResource CardBackground}">
+                                <Grid RowDefinitions="210,Auto,Auto"
+                                      ColumnDefinitions="*,Auto"
+                                      Padding="0,0,0,12">
+                                    <Image Source="{Binding Image}"
+                                           Aspect="AspectFill"
+                                           Grid.ColumnSpan="2"/>
+                                    <StackLayout Orientation="Horizontal"
+                                                 Grid.Row="1"
+                                                 Padding="24,6,0,0">
+
+                                        <Label Text="{Binding Type}"
+                                           FontSize="Small"
+                                           TextColor="{StaticResource TextSecondary}"/>
+                                        <Label 
+                                            Text=" - " 
+                                            FontSize="Small"  
+                                            TextColor="{StaticResource TextSecondary}"
+                                            VerticalTextAlignment="Center"/>
+
+                                        <Label Text="{Binding Number}"
+                                           FontSize="Small"
+                                           TextColor="{StaticResource TextSecondary}"/>
+                                    </StackLayout>
+                                    <Label 
+                                        Grid.Row="2" 
+                                        Margin="24,0,0,0" 
+                                        FontSize="Small" 
+                                        TextColor="{StaticResource TextPrimary}"
+                                        Text="{Binding Name}" />
+
+                                    <StackLayout Orientation="Horizontal"
+                                                 Grid.Row="1"
+                                                 Grid.Column="1"
+                                                 Grid.RowSpan="2"
+                                                 Padding="0,0,18,0">
+                                        <Image
+                                            HeightRequest="50"
+                                            HorizontalOptions="Center"
+                                            Source="{Binding Instructor}"
+                                            VerticalOptions="Center"
+                                            WidthRequest="50">
+                                            <Image.Clip>
+                                                <EllipseGeometry
+                                                    Center="25,25"
+                                                    RadiusX="24"
+                                                    RadiusY="25"/>
+                                            </Image.Clip>
+                                        </Image>
+
+                                        <Frame WidthRequest="46"
+                                               HeightRequest="46"
+                                               CornerRadius="23"
+                                               BackgroundColor="{StaticResource MoreInstructorBackground}"
+                                               HorizontalOptions="End"
+                                               VerticalOptions="Center"
+                                               Padding="0"
+                                               IsVisible="{Binding HasMoreInstructors}">
+
+                                            <Label HorizontalOptions="Center"
+                                                   VerticalOptions="Center"
+                                                   Text="{Binding MoreInstructors}"
+                                                   TextColor="{StaticResource TextPrimary}"/>
+                                        </Frame>
+
+                                    </StackLayout>
+                                </Grid>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </xct:TabViewItem>  
                 
                 <xct:TabViewItem
                     Text="Schedule"

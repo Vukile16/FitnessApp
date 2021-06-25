@@ -1552,25 +1552,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\": {},
+    "C:\\Users\\vukil\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tiledi Kekana\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp\\FitnessApp.csproj",
+      "projectUniqueName": "C:\\Users\\vukil\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp\\FitnessApp.csproj",
       "projectName": "FitnessApp",
-      "projectPath": "C:\\Users\\Tiledi Kekana\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp\\FitnessApp.csproj",
-      "packagesPath": "C:\\Users\\Tiledi Kekana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tiledi Kekana\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp\\obj\\",
+      "projectPath": "C:\\Users\\vukil\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp\\FitnessApp.csproj",
+      "packagesPath": "C:\\Users\\vukil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vukil\\Documents\\GitHub\\FitnessApp\\src\\FitnessApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Tiledi Kekana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vukil\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -1655,7 +1655,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
